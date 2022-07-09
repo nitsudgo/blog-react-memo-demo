@@ -19,7 +19,7 @@ function App() {
           onClick={() => setValue(x => x + 1)}
         >
           <div className='text-center font-bold'>{value}</div>
-          Update and Re-render
+          Update and re-render
         </button>
 
         <button
