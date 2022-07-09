@@ -16,4 +16,6 @@ Supplementary files for a blog post demonstrating the use of React Memo to mitig
         1. `YesMemoComponent` is wrapped in a memoization, so it does not re-render as the props have not changed. 
         1. `NoMemoComponent` is **NOT** wrapped in a memoization, so it re-renders since the parent `App` component has re-rendered. 
 
-We can carefully employ this memoization strategy in our applications for cases where a component's rendering is expensive. For more details, do check out the original blog post.
+We can carefully employ this memoization strategy in our applications for cases where a component's rendering is expensive. If a component is costly to render, memoization helps to prevent unnecessary re-rendering if the props have not changed.
+
+For more details, do check out the original blog post.
